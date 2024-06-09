@@ -1,0 +1,66 @@
+body {
+    font-family: 'Julius Sans One', Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2ss1vPict2Pl-d-yeuh0BLBThbSTbHEbWG_d4IGiy0KwZ6C4H_y9SE7ILQ&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgb(22, 1, 1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 160px;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: auto;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Julius Sans One', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.back {
+    background-color: #dc3545;
+}
+
+button.back:hover {
+    background-color: #c82333;
+}

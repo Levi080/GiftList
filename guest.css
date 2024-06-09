@@ -1,0 +1,112 @@
+body {
+    font-family: 'Julius Sans One', Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2ss1vPict2Pl-d-yeuh0BLBThbSTbHEbWG_d4IGiy0KwZ6C4H_y9SE7ILQ&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgb(22, 1, 1);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    max-height: 80%; /* Ajuste conforme necessário */
+    overflow: hidden; /* Oculta qualquer transbordamento */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Julius Sans One', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.back {
+    background-color: red;
+}
+
+button.back:hover {
+    background-color: #ff021ba8;
+}
+
+button#add-product {
+    margin-left: 10px;
+}
+
+#product-list {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto; 
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    color: #f7f7f7;
+    font-size: larger;
+}
+
+.button-edit {
+    background-color: rgb(214, 214, 28);
+    color: black;
+}
+
+.button-remove {
+    background-color: red;
+    color: white;
+}
+
+.button-edit:hover {
+    background-color: rgba(214, 214, 28, 0.623);
+}
+
+.button-remove:hover {
+    background-color: rgba(255, 0, 0, 0.63);
+}
